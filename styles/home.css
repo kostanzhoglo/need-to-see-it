@@ -8,6 +8,14 @@
   grid-gap: 10px;
 }
 
+.container2 {
+  display: grid;
+  background: aqua;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(14, 100px);
+  border: 2px solid yellow;
+}
+
 html {
   box-sizing: border-box;
 
