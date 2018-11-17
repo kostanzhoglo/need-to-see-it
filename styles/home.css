@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  background: yellow;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  border: 2px solid red;
+  /* border-radius: 5px; */
+  grid-gap: 10px;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 50px;
+  background-size: 400px, auto;
+  /* letter-spacing: -1px; */
+}
+
+.item {
+  display: grid;
+  /* grid-template-columns: 1fr 4fr; */
+  justify-content: center;
+  align-items: center;
+  border: 5px solid blue;
+  border-radius: 5px;
+  background: pink;
+}
+
+.small {
+  display: grid;
+}
+
+h1 {
+  color: red;
+}
