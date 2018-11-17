@@ -8,12 +8,13 @@
   grid-gap: 10px;
 }
 
-.container2 {
+.player {
   display: grid;
   background: aqua;
   grid-template-columns: repeat(14, 1fr);
-  grid-template-rows: repeat(14, 100px);
+  grid-template-rows: 100px);
   border: 2px solid yellow;
+  height: 50px;
 }
 
 html {
